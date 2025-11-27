@@ -77,7 +77,7 @@ export default function QuinceaneraInvitation() {
     }
   }
 
-  return <div className="flex justify-center items-center w-screen h-screen">Proyecto en Pausa</div>
+  //return <div className="flex justify-center items-center w-screen h-screen">Proyecto en Pausa</div>
 
   if (!hasStarted) {
     return <SplashScene onStart={handleStart} />
